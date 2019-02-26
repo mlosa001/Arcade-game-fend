@@ -1,4 +1,5 @@
-#Classic Arcade game
+
+# Classic Arcade game
 
 Win by getting to the last tile while avoiding the bugs ! 
 
@@ -13,3 +14,5 @@ Win by getting to the last tile while avoiding the bugs !
 
 - Clone or Download the compressed file.
 - Load index.html into your browser.
+
+
