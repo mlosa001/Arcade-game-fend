@@ -94,7 +94,7 @@ update() {
     for (let enemy of allEnemies) {
       //  if player location = enemy location reset
 
-      if (this.y === enemy.y && (enemy.x + enemy.step / 2 > this.x && enemy.x < this.x + this.step / 2)) {
+      if (this.y === enemy.y && (enemy.x + enemy.step / 3 > this.x && enemy.x < this.x + this.step / 3)) {
         console.log(this.y, enemy.y);
         this.reset();
       }
