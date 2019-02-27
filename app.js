@@ -102,7 +102,7 @@ update() {
     }
     //condition for winning, player position = top row
     if (this.y === 55) {
-
+      this.reset();
       this.victory = true;
       //show modal
       win();
